@@ -6,12 +6,11 @@
     "es6": true
   },
   "parser": "@typescript-eslint/parser",
-  "plugins": ["import", "@typescript-eslint", "react", "prettier"],
+  "plugins": ["import", "@typescript-eslint", "react"],
   "extends": [
     "airbnb",
     "airbnb-typescript",
     "airbnb/hooks",
-    "plugin:@typescript-eslint/parser",
     "plugin:@typescript-eslint/recommended",
     "next/core-web-vitals",
     "next/typescript",
@@ -19,7 +18,7 @@
   ],
   "ignorePatterns": ["node_modules/"],
   "parserOptions": {
-    "project": "./tsconfig.json",
+    "project": ["tsconfig.json"],
     "createDefaultProgram": true
   },
   "rules": {
