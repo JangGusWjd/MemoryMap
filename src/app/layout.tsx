@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Navbar from '@/components/navbar/Navbar'
+import Navbar from '@/components/common/Navbar'
 
 export const metadata: Metadata = {
   title: 'MemoryMap',
@@ -18,7 +18,7 @@ export default function RootLayout({
         <div className='w-full flex-none md:w-64'>
           <Navbar />
         </div>
-        <div className='flex-grow p-6 md:overflow-y-auto md:p-12'>{children}</div>
+        <div className='flex-grow p-4 md:overflow-y-auto md:p-4'>{children}</div>
       </body>
     </html>
   )
