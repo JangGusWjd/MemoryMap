@@ -10,6 +10,7 @@ export default function StoryList() {
             className={
               'flex shrink-0 flex-col items-center justify-center text-sm font-light text-black'
             }
+            key={story.id}
           >
             <Image
               src={story.img}
