@@ -16,6 +16,7 @@ export default {
         customBlue: '69A5FF',
         customGray: '#929090',
         customGrayLight: '#F1F1F1',
+        customBorderGray: '#CACACA',
       },
       borderRadius: {
         '15px': '15px',
