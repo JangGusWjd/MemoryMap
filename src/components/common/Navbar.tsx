@@ -1,3 +1,5 @@
+'use client'
+
 import LogoIcon from '@/assets/icon/logo.svg'
 import { PowerIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
